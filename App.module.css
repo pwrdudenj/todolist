@@ -1,0 +1,75 @@
+.inpfield {
+    margin-top: 0rem;
+    width: 17rem;
+        height: 6rem;
+        border-radius: 25%;
+        background-color: rgba(255, 255, 255, 0.927);
+        transition: 0.5s;
+        -webkit-backdrop-filter: blur(25px) saturate(180%);
+        backdrop-filter: blur(25px) saturate(180%);
+    
+        /* 3. Rounded corners and thin light border to catch the glare */
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 75%);
+    
+        /* 4. Shadows for depth (outer shadow and a subtle inner glare) */
+        box-shadow:
+            0 8px 32px 0 rgba(0, 0, 0, 1),
+            inset 0 1px 1px rgb(105, 105, 105);
+    position: absolute;
+    resize: none;
+    font-size: 2.5rem;
+}
+.btn {
+    margin-left: 19rem;
+    margin-top: 0rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 25%;
+    cursor: grab;
+    background-color: rgba(255, 255, 255, 75%);
+    transition: 0.5s;
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
+        backdrop-filter: blur(25px) saturate(180%);
+    
+        /* 3. Rounded corners and thin light border to catch the glare */
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 100%);
+    
+        /* 4. Shadows for depth (outer shadow and a subtle inner glare) */
+        box-shadow:
+            0 8px 32px 0 rgba(0, 0, 0, 0.7),
+            inset 0 1px 1px rgb(105, 105, 105);
+}
+.btn:hover {
+    background-color: rgba(233, 233, 233, 75%);
+}
+.btn:active {
+    cursor: grabbing;
+    background-color: rgba(178, 178, 178, 75%);
+}
+.textinbox {
+    width: 3rem;
+    height: 6rem;
+    resize: none;
+    z-index: 10;
+}
+.btns1 {
+    position: fixed;
+    left: 40rem;
+    top: 10rem;
+}
+.btns2 {
+    position: fixed;
+    left: 40rem;
+    top: 20rem;
+}
+.btns3 {
+    position: fixed;
+    left: 40rem;
+    top: 30rem;
+}
+.rightdiv {
+    background-color: aqua;
+    height: 30rem;
+}
